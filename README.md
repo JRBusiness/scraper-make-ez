@@ -58,11 +58,11 @@ scraper_project/
 ## 💻 How to Run
 
 ```bash
-# Install dependencies
-pip install playwright httpx
+# Install UV for faster dependencies management! It's the future, pip is old is slow
+pip install uv
 
-# Install browsers
-playwright install
+# Install depedencies
+uv pip install -r requirements.txt
 
 # Run the scraper
 python main.py
